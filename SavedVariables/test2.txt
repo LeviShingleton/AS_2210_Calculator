@@ -1,0 +1,4 @@
+currentValue:44
+var1:64
+var2:88
+var3:9

@@ -1,0 +1,26 @@
+============================================================
+CALCULATOR COMMANDS - enter "help" to view this manual again
+[required] (optional)
+============================================================
+
+MATH OPERATIONS
+------------------------------------------------------------
+add (x) | (x,y) : Adds x to the current value			| adds x + y
+sub (x) | (x,y) : Subtracts x from current value		| subtracts y from x
+multiply (x) | (x,y) : Multiplies current value by x	| multiplies x * y.
+mod (x) | (x,y) : Performs current value % x			| x % y
+exp (x) | (x,y) : Raises current value to x power		| raises x to y power
+square | (x): Squares current value						| squares x
+sqrt | (x): Takes the square root of current value		| square root of x
+factorial | (x) : Takes factorial of current value		| factorial of x; x is an integer
+------------------------------------------------------------
+
+DATA MANAGEMENT OPERATIONS
+------------------------------------------------------------
+clr (variable) : Clears the current value				| Clears the given variable
+store [variable] | [value, variable] : Stores curre nt value in variable | Store value in variable
+set [variable]   | [var1, var2] : Sets current value to variable | sets var1 equal to var2
+undo : Restores current value to next previous state
+exportvars [filename] : Copies all runtime variables to a text file, or overwrites the existing file
+importvars [filename] : Copies all file variables to the runtime variable collection
+vars : Displays all runtime variables
